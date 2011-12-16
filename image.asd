@@ -4,6 +4,7 @@
   :version "0.11"
   :author "Ingvar Mattsson <ingvar@hexapodia.net>"
   :maintainer "Kevin Lynx <kevinlynx@gmail.com>"
+  :description "An image-drawing with some drawing primitives"
   :license "MIT"
   :depends-on (#:skippy #:zpng #:gzip-stream #:flexi-streams
                 #+support-clx #:clx)
