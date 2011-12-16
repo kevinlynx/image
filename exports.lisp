@@ -23,9 +23,11 @@
 		    (format-from-name filename))))
     (export-to-file image filename :format format :comment comment)))
 
+#+support-clx
 (defmethod export-image (image (sink xlib:drawable) &key)
   (export-to-x11 image sink))
 
+#+support-clx
 (defmethod export-image (image (sink xlib:display) &key)
   (export-to-x11 image sink))
 
